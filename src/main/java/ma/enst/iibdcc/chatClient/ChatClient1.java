@@ -1,0 +1,21 @@
+package ma.enst.iibdcc.chatClient;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.Parent;
+import javafx.stage.Stage;
+
+public class ChatClient1 extends Application {
+
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("/chat_client.fxml"));
+        primaryStage.setTitle("Client de Chat");
+        primaryStage.setScene(new Scene(root, 600, 500));
+        primaryStage.show();
+    }
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
