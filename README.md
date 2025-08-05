@@ -1,4 +1,4 @@
-# 💬 Chat Client-Serveur JavaFX
+# 💬 Chat Room
 
 Un projet Java basé sur les Sockets, multithreading et JavaFX 
 permettant à plusieurs utilisateurs de discuter en temps réel via une interface graphique simple. 
